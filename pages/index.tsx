@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import FacebookLoginButton from '../components/FacebookLoginButton';
-import AdDisplay from '../components/AdDisplay';
+import { useState } from "react";
+import FacebookLoginButton from "../components/FacebookLoginButton";
+import AdDisplay from "../components/AdDisplay";
 
 const Home = () => {
   const [accessToken, setAccessToken] = useState<string | null>(null);
